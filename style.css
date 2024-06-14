@@ -14,7 +14,8 @@ body{
 }
 
 .Toboolist-logo{
-    padding: 5px 20px;
+    padding: 3px 0px 2px 13px;
+    width: 180px;
 }
 
 .page-content{
@@ -92,10 +93,12 @@ h2{
 }
 
 .list-item{
-    font-size: 18px;
+    font-size: 13px;
+    display: block;
 }
 
 .list-item-one{
+    font-size: 13px;
     display: inline-block;
 }
 
@@ -104,9 +107,9 @@ h2{
     margin-right: 6px;
     border: 1px solid green;
     border-radius: 500px;
-    padding-left: 4px;
-    height: 22px;
-    width: 22px;
+    padding-left: 3px;
+    height: 18px;
+    width: 18px;
     color: green;
 }
 
@@ -116,13 +119,15 @@ h2{
     border: 1px solid rgb(212, 6, 6);
     border-radius: 100px;
     padding-left: 3px;
-    height: 22px;
-    width: 22px;
+    height: 18px;
+    width: 18px;
     color: rgb(212, 6, 6);
 }
 
 .tag-blue{
+    display: inline-block;
     margin: auto;
+    margin-left: 35px;
     height: 20px;
     width: 55px;
     font-size: 10px;
@@ -136,6 +141,7 @@ h2{
 
 .tag-purple{
     margin: auto;
+    margin-left: 35px;
     height: 20px;
     width: 55px;
     font-size: 10px;
@@ -149,6 +155,7 @@ h2{
 
 .tag-green{
     margin: auto;
+    margin-left: 35px;
     height: 20px;
     width: 55px;
     font-size: 10px;
@@ -162,6 +169,7 @@ h2{
 
 .tag-orange{
     margin: auto;
+    margin-left: 35px;
     height: 20px;
     width: 55px;
     font-size: 10px;
