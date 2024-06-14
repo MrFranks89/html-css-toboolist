@@ -84,7 +84,7 @@ ul{
 }
 
 h2{
-    margin-bottom: 8px;
+    margin: 0px;
 }
 
 .page-list-1{
@@ -92,50 +92,83 @@ h2{
 }
 
 .list-item{
-    /* display: inline-block; */
     font-size: 18px;
 }
 
-.check-ok{
-    \2713;
-}
-
-span.list-item{
+.list-item-one{
     display: inline-block;
 }
 
+.check-ok{
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid green;
+    border-radius: 500px;
+    padding-left: 4px;
+    height: 22px;
+    width: 22px;
+    color: green;
+}
+
+.check-no{
+    display: inline-block;
+    margin-right: 6px;
+    border: 1px solid rgb(212, 6, 6);
+    border-radius: 100px;
+    padding-left: 3px;
+    height: 22px;
+    width: 22px;
+    color: rgb(212, 6, 6);
+}
+
 .tag-blue{
+    margin: auto;
+    height: 20px;
+    width: 55px;
+    font-size: 10px;
     background-color: #008CBA;
     color: white;
     border: 2px solid #008CBA;
-    padding: 3px;
-    border-radius: 8px;
+    padding: 3px 8px;
+    border-radius: 10px;
     display: inline-block;
 }
 
 .tag-purple{
+    margin: auto;
+    height: 20px;
+    width: 55px;
+    font-size: 10px;
     background-color: #a60ec8;
     color: white;
     border: 2px solid #a60ec8;
-    padding: 3px;
+    padding: 3px 8px;
     border-radius: 8px;
     display: inline-block;
 }
 
 .tag-green{
+    margin: auto;
+    height: 20px;
+    width: 55px;
+    font-size: 10px;
     background-color: #18bf69;
     color: white;
     border: 2px solid #18bf69;
-    padding: 3px;
+    padding: 3px 5px;
     border-radius: 8px;
     display: inline-block;
 }
 
 .tag-orange{
+    margin: auto;
+    height: 20px;
+    width: 55px;
+    font-size: 10px;
     background-color: #e0b117;
     color: white;
     border: 2px solid #e0b117;
-    padding: 3px;
+    padding: 3px 11px;
     border-radius: 8px;
     display: inline-block;
 }
