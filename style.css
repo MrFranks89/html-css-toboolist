@@ -95,6 +95,7 @@ h2{
 .list-item{
     font-size: 13px;
     display: block;
+    margin-bottom: 5px;
 }
 
 .list-item-one{
@@ -126,57 +127,48 @@ h2{
 
 .tag-blue{
     display: inline-block;
-    margin: auto;
-    margin-left: 35px;
-    height: 20px;
-    width: 55px;
+    margin: 0 5px;
     font-size: 10px;
     background-color: #008CBA;
     color: white;
     border: 2px solid #008CBA;
-    padding: 3px 8px;
+    padding: 0 5px;
+    line-height: 17px;
     border-radius: 10px;
-    display: inline-block;
 }
 
 .tag-purple{
-    margin: auto;
-    margin-left: 35px;
-    height: 20px;
-    width: 55px;
+    margin: 0 5px;
     font-size: 10px;
     background-color: #a60ec8;
     color: white;
     border: 2px solid #a60ec8;
-    padding: 3px 8px;
+    padding: 0 5px;
+    line-height: 17px;
     border-radius: 8px;
     display: inline-block;
 }
 
 .tag-green{
-    margin: auto;
-    margin-left: 35px;
-    height: 20px;
-    width: 55px;
+    margin: 0 5px;
     font-size: 10px;
     background-color: #18bf69;
     color: white;
     border: 2px solid #18bf69;
-    padding: 3px 5px;
+    padding: 0 5px;
+    line-height: 17px;
     border-radius: 8px;
     display: inline-block;
 }
 
 .tag-orange{
-    margin: auto;
-    margin-left: 35px;
-    height: 20px;
-    width: 55px;
+margin: 0 5px;
     font-size: 10px;
     background-color: #e0b117;
     color: white;
     border: 2px solid #e0b117;
-    padding: 3px 11px;
+    padding: 0 5px;
+    line-height: 17px;
     border-radius: 8px;
     display: inline-block;
 }
