@@ -16,3 +16,126 @@ body{
 .Toboolist-logo{
     padding: 5px 20px;
 }
+
+.page-content{
+    padding: 20px;
+}
+
+.page-content *{
+    vertical-align: middle;
+}
+
+.container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/* Bottoni */
+.buttons{
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+      }
+
+.button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 3px;
+    border-radius: 8px;
+      }
+      
+.button1:hover {
+    background-color: #008CBA;
+    color: white;
+        }
+
+.button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    padding: 3px;
+    border-radius: 8px;
+      }
+      
+.button2:hover {
+    background-color: #008CBA;
+    color: white;
+        }
+
+hr{
+    color: lightgrey;
+    border: 1px solid;
+    margin: 0;
+}
+
+ul{
+    list-style-type: none;
+    margin: 2px;
+    padding: 15px 25px;
+}
+
+h2{
+    margin-bottom: 8px;
+}
+
+.page-list-1{
+    vertical-align: middle;
+}
+
+.list-item{
+    /* display: inline-block; */
+    font-size: 18px;
+}
+
+.check-ok{
+    \2713;
+}
+
+span.list-item{
+    display: inline-block;
+}
+
+.tag-blue{
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+    padding: 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.tag-purple{
+    background-color: #a60ec8;
+    color: white;
+    border: 2px solid #a60ec8;
+    padding: 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.tag-green{
+    background-color: #18bf69;
+    color: white;
+    border: 2px solid #18bf69;
+    padding: 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.tag-orange{
+    background-color: #e0b117;
+    color: white;
+    border: 2px solid #e0b117;
+    padding: 3px;
+    border-radius: 8px;
+    display: inline-block;
+}
